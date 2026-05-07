@@ -1,0 +1,27 @@
+{
+  "name": "b52",
+  "version": "1.0.0",
+  "description": "Server B52 hỗ trợ tiếng Việt UTF-8",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "b52",
+    "express",
+    "utf8",
+    "vietnamese"
+  ],
+  "author": "B52",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
