@@ -1,27 +1,19 @@
 {
-  "name": "b52",
+  "name": "b52-api",
   "version": "1.0.0",
-  "description": "Server B52 hỗ trợ tiếng Việt UTF-8",
-  "main": "server.js",
+  "description": "B52 Predictor API",
   "type": "module",
+  "main": "b52.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node b52.js",
+    "dev": "node --watch b52.js"
   },
-  "keywords": [
-    "b52",
-    "express",
-    "utf8",
-    "vietnamese"
-  ],
-  "author": "B52",
-  "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "@fastify/cors": "^11.1.0",
+    "fastify": "^5.6.0",
+    "node-fetch": "^3.3.2"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.0"
+  "engines": {
+    "node": ">=20"
   }
 }
